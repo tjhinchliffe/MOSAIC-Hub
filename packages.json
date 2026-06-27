@@ -1,1 +1,26 @@
-
+{
+  "schema": 1,
+  "updated": "2026-06-27",
+  "packages": [
+    {
+      "key": "naplan_visualiser",
+      "name": "NAPLAN Visualiser",
+      "description": "Core MOSAIC package for analysing NAPLAN item-level evidence.",
+      "type": "core",
+      "core": true,
+      "defaultInstalled": true,
+      "latestVersion": "2.0.0",
+      "downloadUrl": null
+    },
+    {
+      "key": "patr_adaptive",
+      "name": "PAT Reading Adaptive",
+      "description": "Optional MOSAIC package for PAT Reading Adaptive reports and planning tools.",
+      "type": "optional",
+      "core": false,
+      "defaultInstalled": false,
+      "latestVersion": "2.0.0",
+      "downloadUrl": ""
+    }
+  ]
+}
