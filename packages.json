@@ -1,35 +1,49 @@
 {
-  "schema": 1,
-  "updated": "2026-06-27",
+  "schema": 2,
+  "updated": "2026-06-28T00:00:00Z",
   "packages": [
     {
+      "id": "naplan_visualiser",
       "key": "naplan_visualiser",
       "name": "NAPLAN Visualiser",
+      "category": "NAPLAN",
       "description": "Core MOSAIC package for analysing NAPLAN item-level evidence.",
       "type": "core",
       "core": true,
       "defaultInstalled": true,
       "latestVersion": "2.0.0",
-      "minimumMosaicVersion": "2.0.0",
-      "releaseDate": "2026-06-28",
+      "compatibility": {
+        "minimum": "2.2.1",
+        "maximum": null
+      },
+      "published": "2026-06-28T00:00:00Z",
       "downloadUrl": null,
       "sha256": null,
-      "size": null,
-      "ReleaseNotes": "Debut public edition."
+      "downloadSize": null,
+      "installedSize": null,
+      "channel": "stable",
+      "releaseNotes": "Debut public edition."
     },
     {
+      "id": "patr_adaptive",
       "key": "patr_adaptive",
       "name": "PAT Reading Adaptive",
+      "category": "PAT",
       "description": "Optional MOSAIC package for PAT Reading Adaptive reports and planning tools.",
       "type": "optional",
       "core": false,
       "defaultInstalled": false,
       "latestVersion": "2.1.1",
-      "minimumMosaicVersion": "2.1.1",
-      "releaseDate": "2026-06-28",
-      "downloadUrl": "https://github.com/user-attachments/files/29426376/patr_adaptive-v2.1.1.zip",
+      "compatibility": {
+        "minimum": "2.2.1",
+        "maximum": null
+      },
+      "published": "2026-06-28T00:00:00Z",
+      "downloadUrl": "https://github.com/tjhinchliffe/MOSAIC-Packages/releases/download/patr_adaptive-v2.1.1/patr_adaptive-v2.1.1.zip",
       "sha256": "43211554009052fb470fc636b6d23b9f39d4e89f196059bd216cb295e7ebad75",
-      "size": 767488,
+      "downloadSize": 767488,
+      "installedSize": null,
+      "channel": "stable",
       "releaseNotes": "Added self-contained package architecture."
     }
   ]
