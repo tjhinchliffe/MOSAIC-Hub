@@ -10,7 +10,12 @@
       "core": true,
       "defaultInstalled": true,
       "latestVersion": "2.0.0",
-      "downloadUrl": null
+      "minimumMosaicVersion": "2.0.0",
+      "releaseDate": "2026-06-28",
+      "downloadUrl": null,
+      "sha256": null;
+      "size": null,
+      "ReleaseNotes": "Debut public edition."
     },
     {
       "key": "patr_adaptive",
@@ -19,8 +24,13 @@
       "type": "optional",
       "core": false,
       "defaultInstalled": false,
-      "latestVersion": "2.0.0",
-      "downloadUrl": ""
+      "latestVersion": "2.1.1",
+      "minimumMosaicVersion": "2.1.1",
+      "releaseDate": "2026-06-28",
+      "downloadUrl": "https://github.com/user-attachments/files/29426376/patr_adaptive-v2.1.1.zip",
+      "sha256": "43211554009052fb470fc636b6d23b9f39d4e89f196059bd216cb295e7ebad75",
+      "size": 767488,
+      "releaseNotes": "Added self-contained package architecture."
     }
   ]
 }
